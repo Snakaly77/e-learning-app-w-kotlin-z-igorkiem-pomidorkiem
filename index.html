@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uczymy się Kotlina!</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; background-color: #f4f4f9; }
+        header { background: #7F52FF; color: white; padding: 20px; text-align: center; }
+        main { padding: 20px; max-width: 800px; margin: auto; background: white; box-shadow: 0 0 10px rgba(0,0,0,0.1); margin-top: 20px; border-radius: 8px;}
+        h2 { color: #333; }
+        pre { background: #2d2d2d; color: #f8f8f2; padding: 15px; border-radius: 5px; overflow-x: auto; }
+        .keyword { color: #ff79c6; }
+        .function { color: #50fa7b; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Aplikacja e-learningowa: Język Kotlin</h1>
+    </header>
+
+    <main>
+        <section id="teoria">
+            <h2>1. Podstawy funkcji w Kotlinie</h2>
+            <p>Funkcje w języku Kotlin definiujemy za pomocą słowa kluczowego <strong>fun</strong>. Każda funkcja może przyjmować parametry i zwracać wartość.</p>
+            
+            <h3>Struktura funkcji:</h3>
+            <pre><code><span class="keyword">fun</span> <span class="function">nazwaFunkcji</span>(parametr: Typ): TypZwracany {
+    <span class="keyword">return</span> wynik
+}</code></pre>
+
+            <h3>Przykład:</h3>
+            <p>Poniżej znajduje się funkcja, która dodaje dwie liczby całkowite (Int) i zwraca ich sumę:</p>
+            <pre><code><span class="keyword">fun</span> <span class="function">dodaj</span>(a: Int, b: Int): Int {
+    <span class="keyword">return</span> a + b
+}</code></pre>
+        </section>
+    </main>
+
+</body>
+</html>
